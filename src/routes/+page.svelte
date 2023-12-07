@@ -51,5 +51,5 @@
 		>Connect with Twitch</a
 	>
 {:else}
-	<h1>{total}</h1>
+	<h1>{total} followers</h1>
 {/if}
