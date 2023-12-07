@@ -47,7 +47,7 @@
 
 {#if !total}
 	<a
-		href="https://id.twitch.tv/oauth2/authorize?client_id=8i91xo6kbowyzxsrufswgbwdbs0a16&redirect_uri=http://localhost:5173/&response_type=token&scope=moderator:read:followers"
+		href="https://id.twitch.tv/oauth2/authorize?client_id=8i91xo6kbowyzxsrufswgbwdbs0a16&redirect_uri=https://twitch-follower-count.vercel.app/&response_type=token&scope=moderator:read:followers"
 		>Connect with Twitch</a
 	>
 {:else}
